@@ -1,0 +1,29 @@
+--Version 0.31
+What's new:
+	Added code for light tracer blocks: facing direction added, light propagation added for base block.
+
+--Version 0.3
+What's new:
+	Changed existing code for green tron block (simpletron:tronblock6)-> (simpletron:tronblock4)
+	Added light tracer base (simpletron:light_tracer_base) + crafting recipy + textures
+	Added blue light tracer block (simpletron:light_tracer_blue) + crafting recipy + textures
+# Not completed #	Added 3 other colors for light tracer block set (simpletron:light_tracer_<color>) + crafting recipy + textures
+
+--Version 0.22
+What's new:
+	Changed black crafting block to a craft-only item.
+
+
+--Version 0.21
+What's new:
+	Added glass sounds to four main tron blocks.
+
+
+--Version 0.20
+What's new:
+	Added glow to four main tron blocks.
+
+
+--Version 0.1
+What's new:
+	Development of textures and code for 4 tron blocks and crafting block.
