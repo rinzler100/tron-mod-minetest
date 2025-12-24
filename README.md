@@ -1,2 +1,2 @@
 # tron-mod-minetest
-A simple tron mod for Luanti's Minetest Game
+A simple (for now) tron mod for [Luanti](https://www.luanti.org/en/downloads/)'s Minetest Game
