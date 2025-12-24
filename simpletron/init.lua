@@ -21,7 +21,7 @@ minetest.register_node("simpletron:light_tracer_base", {
 
 minetest.register_node("simpletron:light_tracer_blue", {
 	description = "Blue tron strip light",
-	light_source = 15,
+	light_source = 14,
 	paramtype2 = "facedir",
 	sounds = default.node_sound_glass_defaults(),
 	tiles = {
@@ -37,7 +37,7 @@ minetest.register_node("simpletron:light_tracer_blue", {
 
 minetest.register_node("simpletron:light_tracer_orange", {
 	description = "Orange tron strip light",
-	light_source = 15,
+	light_source = 14,
 	paramtype2 = "facedir",
 	sounds = default.node_sound_glass_defaults(),
 	tiles = {
@@ -53,7 +53,7 @@ minetest.register_node("simpletron:light_tracer_orange", {
 
 minetest.register_node("simpletron:light_tracer_yellow", {
 	description = "Yellow tron strip light",
-	light_source = 15,
+	light_source = 14,
 	paramtype2 = "facedir",
 	sounds = default.node_sound_glass_defaults(),
 	tiles = {
@@ -69,7 +69,7 @@ minetest.register_node("simpletron:light_tracer_yellow", {
 
 minetest.register_node("simpletron:light_tracer_green", {
 	description = "Green tron strip light",
-	light_source = 15,
+	light_source = 14,
 	paramtype2 = "facedir",
 	sounds = default.node_sound_glass_defaults(),
 	tiles = {
@@ -79,7 +79,7 @@ minetest.register_node("simpletron:light_tracer_green", {
 		"light_tracer_base.png", -- left
 		"light_tracer_green.png", -- back
 		"light_tracer_green.png"  -- front
-	},
+	},	
 	groups = {cracky = 2}
 })
 
