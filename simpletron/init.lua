@@ -8,14 +8,7 @@ minetest.register_node("simpletron:light_tracer_base", {
 	description = "A dark material used to craft light tracer blocks",
 	sounds = default.node_sound_stone_defaults(),
 	sunlight_propagates = true,
-	tiles = {
-		"light_tracer_base.png", -- top
-		"light_tracer_base.png", -- bottom
-		"light_tracer_base.png", -- right
-		"light_tracer_base.png", -- left
-		"light_tracer_base.png", -- back
-		"light_tracer_base.png"  -- front
-	},
+	tiles = {"light_tracer_base.png"}, -- only one needed since all faces are the same
 	groups = {cracky = 2}
 })
 
@@ -87,14 +80,7 @@ minetest.register_node("simpletron:tronblock1", {
 	description = "black with a rim of blue",
 	light_source = 8,
 	sounds = default.node_sound_glass_defaults(),
-	tiles = {
-		"simpletron_tronblock1.png", -- top
-		"simpletron_tronblock1.png", -- bottom
-		"simpletron_tronblock1.png", -- right
-		"simpletron_tronblock1.png", -- left
-		"simpletron_tronblock1.png", -- back
-		"simpletron_tronblock1.png"  -- front
-	},
+	tiles = {"simpletron_tronblock1.png"},	-- all faces the same
 	groups = {cracky = 2}
 })
 
@@ -102,14 +88,7 @@ minetest.register_node("simpletron:tronblock2", {
 	description = "black with a rim of orange",
 	light_source = 8,
 	sounds = default.node_sound_glass_defaults(),
-	tiles = {
-		"simpletron_tronblock2.png", -- top
-		"simpletron_tronblock2.png", -- bottom
-		"simpletron_tronblock2.png", -- right
-		"simpletron_tronblock2.png", -- left
-		"simpletron_tronblock2.png", -- back
-		"simpletron_tronblock2.png"  -- front
-	},
+	tiles = {"simpletron_tronblock2.png"},	-- all faces the same
 	groups = {cracky = 2}
 })
 
@@ -117,14 +96,7 @@ minetest.register_node("simpletron:tronblock3", {
 	description = "A CLU colored tron block",
 	light_source = 8,
 	sounds = default.node_sound_glass_defaults(),
-	tiles = {
-		"simpletron_tronblock3.png", -- top
-		"simpletron_tronblock3.png", -- bottom
-		"simpletron_tronblock3.png", -- right
-		"simpletron_tronblock3.png", -- left
-		"simpletron_tronblock3.png", -- back
-		"simpletron_tronblock3.png"  -- front
-	},
+	tiles = {"simpletron_tronblock3.png"},	-- all faces the same
 	groups = {cracky = 2}
 })
 
@@ -132,14 +104,7 @@ minetest.register_node("simpletron:tronblock4", {
 	description = "Tron greenish blue grid block",
 	light_source = 8,
 	sounds = default.node_sound_glass_defaults(),
-	tiles = {
-		"simpletron_tronblock4.png", -- top
-		"simpletron_tronblock4.png", -- bottom
-		"simpletron_tronblock4.png", -- right
-		"simpletron_tronblock4.png", -- left
-		"simpletron_tronblock4.png", -- back
-		"simpletron_tronblock4.png"  -- front
-	},
+	tiles = {"simpletron_tronblock4.png"},	-- all faces the same
 	groups = {cracky = 2}
 })
 
