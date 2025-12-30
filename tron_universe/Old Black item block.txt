@@ -1,0 +1,12 @@
+minetest.register_node("simpletron:black_item", {
+	description = "A black item used to craft tron blocks",
+	tiles = {
+		"simpletron_black_item.png", -- top
+		"simpletron_black_item.png", -- bottom
+		"simpletron_black_item.png", -- right
+		"simpletron_black_item.png", -- left
+		"simpletron_black_item.png", -- back
+		"simpletron_black_item.png"  -- front
+	},
+	groups = {cracky = 2}
+})
